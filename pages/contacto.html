@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <!-- custom styles -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <title>Contacto</title>
+  </head>
+  <body>
+    <!--INICIO CONTAINER DE BOOTSTRAP -->
+
+    <main class="container">
+      <!-- Menu de navegación -->
+      <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../media/logomwfull.png" alt="Logo MW" height="40px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./tablas.html">Tablas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./maderas.html">Maderas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <hr color="#eef1f5" />
+      <!-- fin menu de navegación-->
+
+      <section class="row">
+        <div class="col">
+          <p class="titulo1">Contáctenos</p>
+          <section>
+            <form action="#">
+              <div>
+                <input
+                  type="text"
+                  name="nombre"
+                  id="nombre"
+                  placeholder="Nombre"
+                  width="800px"
+                />
+              </div>
+              <div>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div>
+                <textarea
+                  name=""
+                  id="mensaje"
+                  cols="30"
+                  rows="10"
+                  placeholder="Su mensaje"
+                ></textarea>
+              </div>
+              <div>
+                <!--   <input type="submit" value="Enviar"> -->
+                <button class="btn btn-outline-dark btn-sm" type="submit">
+                  Enviar
+                </button>
+                <button class="btn btn-outline-dark btn-sm" type="reset">
+                  Cancelar
+                </button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </section>
+    </main>
+    <!--FIN CONTAINER DE BOOTSTRAP -->
+
+    <script src="../js/bootstrap.bundle.js"></script>
+  </body>
+  <footer>
+    <hr color="#eef1f5" />
+    <p class="piedepagina">© Copyright Marc Woods</p>
+  </footer>
+</html>

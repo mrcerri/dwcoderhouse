@@ -1,0 +1,113 @@
+/* Selector universal */
+
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Selector de etiqueta */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: bolder;
+  color: #3b4754;
+}
+
+/*Para que no subraye los links*/
+
+a {
+  text-decoration: none;
+}
+
+.titulo1 {
+  font-size: 26px;
+  font-weight: bolder;
+  color: #3b4754;
+}
+
+.titulo2 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #3b4754;
+  /*    background-color: blueviolet;*/
+}
+
+.textoimportante {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #798da3;
+}
+.textosimple {
+  font-size: 12px;
+  font-weight: bolder;
+  color: #3b4754;
+  /*    background-color: yellow;*/
+}
+
+.datoscontacto {
+  font-family: "Open Sans", sans-serif;
+  width: 800px;
+  background-color: aqua;
+}
+
+.piedepagina {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #3b4754;
+}
+
+
+.box {
+  /*   background-color: aqua;*/
+  display: inline-block;
+  height: 150px;
+  width: 800px;
+}
+
+.box2 {
+  /*   background-color: aqua;*/
+  display: inline-block;
+  height: 140px;
+  width: 400px;
+}
+
+.box3 {
+  /*    background-color: yellowgreen;*/
+  text-align: center;
+  padding: 0px;
+  display: inline-block;
+  height: 140px;
+  width: 400px;
+}
+
+/* Inicio de sobreescritura de estilos para ver el container de bootstrap */
+
+/* .container section,.container-fluid section {
+
+    border: 0.5px solid; 
+} */
+
+/* .container section.row:nth-child(1) {
+    background-color:white;
+} */
+
+/* .container section.row:nth-child(2) {
+    background-color: white;
+} */
+
+/* .container section.row:nth-child(3) {
+    background-color: white;
+} */
+
+/* .container section.row:nth-child(4) {
+    background-color:white;
+} */
+/* .container div{
+    border:1px solid
+} */
+/* fin de sobreescritura de estilos para ver el container de bootstrap */
