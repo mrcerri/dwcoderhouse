@@ -14,6 +14,7 @@
     font-size: 26px;
     font-weight: bolder;
     color: #3b4754;
+
   }
   
   /*Para que no subraye los links*/
@@ -39,6 +40,12 @@ a {
     font-size: 18px;
     font-weight: bolder;
     color: #798da3;
+    h1 {
+        font-size: 26px;
+        font-weight: bolder;
+        /*color: #3b4754;*/
+        color: blueviolet;
+      }
   }
   .textosimple {
     font-size: 12px;

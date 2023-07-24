@@ -38,6 +38,12 @@ a {
   font-weight: bolder;
   color: #798da3;
 }
+.textoimportante h1 {
+  font-size: 26px;
+  font-weight: bolder;
+  /*color: #3b4754;*/
+  color: blueviolet;
+}
 
 .textosimple {
   font-size: 12px;
